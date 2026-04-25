@@ -1,0 +1,121 @@
+.auth-card {
+    background-color: #eef2f3;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.auth-body {
+    max-width: 450px;
+    margin: 0 auto;
+    background: #ffffff !important;
+    border-radius: 12px;
+    overflow: hidden;
+    padding: 0 !important;
+    border: 1px solid #ddd;
+}
+.sec-title {
+    text-align: center;
+    color: #084d4d;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+.sec-heading {
+    color: #333 !important;
+    font-weight: 700;
+    text-align: center;
+}
+.btn-teal {
+    background-color: #0d6b6b !important;
+    color: white !important;
+    border-radius: 0;
+    font-weight: bold;
+    border: none;
+}
+.btn-light {
+    background-color: #f8f9fa !important;
+    color: #555 !important;
+    border-radius: 0;
+    font-weight: bold;
+    border: none;
+}
+.login-form, .register-form {
+    padding: 30px;
+}
+.form-control {
+    background-color: #fff !important;
+    border: 2px solid #e0e0e0 !important;
+    padding: 12px;
+    border-radius: 6px;
+    font-size: 0.95rem;
+    color: #333 !important;
+}
+.form-control::placeholder {
+    color: #aaa !important;
+}
+.gender-selection label {
+    color: #444 !important;
+    font-weight: 500;
+}
+.social-login {
+    display: flex;
+    gap: 10px;
+}
+.social-login button {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background: rgb(231, 141, 141);
+    border-radius: 6px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    transition: 0.3s;
+}
+.social-login button i {
+    font-size: 1.2rem;
+}
+.social-login button:hover {
+    background: #ee9191;
+}
+.divider {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #555;
+}
+.btn-login {
+    width: 100%;
+    padding: 12px;
+    background-color: #f15b5d !important;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+}    
+.btn-login:hover {
+    background-color: #d94a4c;
+}
+.para-login {
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: #555;
+    text-align: center;
+}
+.par-log {
+    color: #f15b5d;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 5px;
+    text-decoration: none;
+}
+.par-log:hover {
+    text-decoration: underline;
+}

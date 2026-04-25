@@ -1,0 +1,125 @@
+.product-sec {
+    background-color: #fcfcfc;
+    padding-bottom: 80px;
+}
+.sec-title {
+    text-align: center;
+    font-weight: 800;
+    font-size: 2.2rem;
+    color: #222;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.product-card {
+    background: #ffffff;
+    border-radius: 15px;
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #f0f0f0;
+    transition: all 0.4s ease;
+}
+.product-card:hover {
+    transform: translateY(-10px);
+}
+.offer-badge {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: #ff4757;
+    color: #fff;
+    padding: 5px 12px;
+    font-size: 0.8rem;
+    font-weight: 700;
+    border-radius: 50px;
+}
+.prod-img {
+    padding: 30px;
+    background: #fff;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image-product {
+    max-height: 100%;
+    object-fit: contain;
+    transition: transform 0.5s ease;
+}
+.product-card:hover .image-product {
+    transform: scale(1.1);
+}
+.product-content {
+    padding: 20px;
+    text-align: center;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.card-title {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 15px;
+    height: 3rem;
+    overflow: hidden;
+}
+.price-box {
+    margin-bottom: 20px;
+}
+.old-price {
+    font-size: 0.95rem;
+    color: #999;
+    text-decoration: line-through;
+    margin-right: 10px;
+}
+.old-price i, .new-price i {
+    font-size: 0.85rem;
+    margin-right: 2px;
+}
+.new-price {
+    font-size: 1.4rem;
+    font-weight: 800;
+    color: #0d6b6b;/
+}
+.prod-but {
+    background-color: #0d6b6b;
+    color: white;
+    border: none;
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: 0.3s;
+    letter-spacing: 1px;
+}
+.prod-but:hover {
+    background-color: #084d4d;
+}
+
+@media (max-width: 768px) {
+    .prod-img {
+        height: 200px;
+    }
+    .sec-title {
+        font-size: 1.7rem;
+    }
+    .card-title {
+        font-size: 1rem;
+        height: auto;      
+        overflow: visible;   
+        min-height: 2.5rem; 
+        margin-bottom: 10px;
+    }
+    .product-content {
+        padding: 15px;
+    }
+    .new-price {
+        font-size: 1.2rem; 
+    }
+}
